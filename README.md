@@ -8,3 +8,11 @@ Utiliza principalmente:
 * emacs
 
 
+
+```sh
+cd $HOME
+git clone https://github.com/hugomosh/archivos-punto.git
+ln -sb archivos-punto/.screenrc .
+```
+
+
