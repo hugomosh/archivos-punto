@@ -31,14 +31,16 @@ alias cl='clear'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
 
+alias subl='open -a "Sublime Text"'
+
 # 2.3) grep options
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31' # green for matches
 
 #2.4) CLI COlors
 
-export CLICOLOR=1
-export LSCOLORS=ExFxCxDxBxegedabagacad
+#export CLICOLOR=1
+#export LSCOLORS=ExFxCxDxBxegedabagacad
 
 ## ------------------------------
 ## -- 3) User-customized code  --
@@ -46,3 +48,4 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
+

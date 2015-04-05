@@ -1,1 +1,18 @@
+export PATH="~/.composer/vendor/bin:/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
+
+# #source ~/git-prompt.sh
+
+# #source /usr/local/git/contrib/completion/git-completion.bash
+# source  /usr/local/etc/bash_completion.d
+# GIT_PS1_SHOWDIRTYSTATE=true
+# export PS1='[\u@mbp \w$(__git_ps1)]\$ '
+# #PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+
+source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
+source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
+#export PS1='\[\e]0; \u@\h: \w\a\]\[\e[32;1m\]\u@\h:\w \[\e[33;1m\]$(__git_ps1 "[%s] ")\[\e[32;1m\]\$ \[\e[0m\]'
+#PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+ export PS1='[\u@mbp \w$(__git_ps1)]\$ '
