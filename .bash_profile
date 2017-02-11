@@ -8,3 +8,6 @@
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
+# added by Anaconda 2.3.0 installer
+export PATH="/Users/hugocardoza/anaconda/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

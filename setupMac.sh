@@ -42,7 +42,8 @@ brew doctor
 ## ----------------------------
 ## -- 2) Instalar Node y Yeoman
 ## ----------------------------
+#Tpodo a nvm
 
-brew install node
+# brew install node
 
-npm install -g yo bower grunt-cli
+# npm install -g yo bower grunt-cli

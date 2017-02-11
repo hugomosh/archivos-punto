@@ -39,8 +39,8 @@ export GREP_COLOR='1;31' # green for matches
 
 #2.4) CLI COlors
 
-#export CLICOLOR=1
-#export LSCOLORS=ExFxCxDxBxegedabagacad
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
 
 ## ------------------------------
 ## -- 3) User-customized code  --
@@ -49,3 +49,10 @@ export GREP_COLOR='1;31' # green for matches
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="$PATH:/usr/local/mysql/bin"
+
+export NVM_DIR="/Users/hugocardoza/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
